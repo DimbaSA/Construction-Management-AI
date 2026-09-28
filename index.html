@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Construction Project Management AI</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f6f8;
+            color: #1f2937;
+        }
+
+        header {
+            background: #111827;
+            color: white;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 24px;
+        }
+
+        header p {
+            margin-top: 5px;
+            color: #cbd5e1;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .welcome {
+            margin-bottom: 25px;
+        }
+
+        .welcome h2 {
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+
+        .dashboard {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+        }
+
+        .number {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .section {
+            margin-top: 30px;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 12px 18px;
+            border: none;
+            border-radius: 8px;
+            background: #2563eb;
+            color: white;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        button:hover {
+            background: #1d4ed8;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #64748b;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Construction Project Management AI</h1>
+    <p>Smart construction contract and project management</p>
+</header>
+
+<div class="container">
+
+    <div class="welcome">
+        <h2>Project Dashboard</h2>
+        <p>Manage your construction project from one central platform.</p>
+    </div>
+
+    <div class="dashboard">
+
+        <div class="card">
+            <h3>Active Projects</h3>
+            <div class="number">0</div>
+            <p>Projects currently being managed</p>
+        </div>
+
+        <div class="card">
+            <h3>Contract Issues</h3>
+            <div class="number">0</div>
+            <p>Issues requiring attention</p>
+        </div>
+
+        <div class="card">
+            <h3>Project Risks</h3>
+            <div class="number">0</div>
+            <p>Risks currently recorded</p>
+        </div>
+
+        <div class="card">
+            <h3>Early Warnings</h3>
+            <div class="number">0</div>
+            <p>Potential problems identified</p>
+        </div>
+
+    </div>
+
+    <div class="section">
+        <h2>Construction Management Modules</h2>
+
+        <p style="margin-top:10px;">
+            The platform will eventually include contract management,
+            risk management, early warnings, variations, costs,
+            programmes and AI assistance.
+        </p>
+
+        <button onclick="startProject()">
+            Create First Project
+        </button>
+    </div>
+
+</div>
+
+<footer>
+    Construction Project Management AI — Prototype
+</footer>
+
+<script>
+    function startProject() {
+        alert("Project creation module coming next!");
+    }
+</script>
+
+</body>
+</html>
